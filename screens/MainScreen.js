@@ -21,4 +21,4 @@ textStyle: {
 },
 });
 
-export default MainScreen;
+export default MainScreen;``
