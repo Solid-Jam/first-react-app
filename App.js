@@ -2,7 +2,8 @@ import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
 import { StyleSheet, Text, View } from "react-native";
 import ListScreen from "./screens/ListScreen";
-import chall2 from "./screens/chall2";
+import ButtonScreen from "./screens/PersonalInfo";
+import MenuScreen from "./screens/MenuScreen";
 
 const Stack = createStackNavigator();
 
@@ -10,7 +11,7 @@ export default function App(){
   return (
     <NavigationContainer>
       <Stack.Navigator>
-        <Stack.Screen name="Home" component={chall2}></Stack.Screen>
+        <Stack.Screen name="Home" component={MenuScreen}></Stack.Screen>
       </Stack.Navigator>
     </NavigationContainer>
   );
